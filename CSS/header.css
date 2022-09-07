@@ -4,7 +4,7 @@ header {
     background: rgba(255, 255, 254, 0.7);
 }
 
-.inner {
+.header-inner {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -13,12 +13,12 @@ header {
     padding: 10px 0;
 }
 
-.logo {
+.header-logo {
     height: 100%;
     width: auto;
 }
 
-.logo a {
+.header-logo a {
     font-size: 22px;
     color: rgba(139, 69, 19, 0.8);;
     text-shadow: 1px 0px 0px rgba(149, 76, 24, 0.8);
