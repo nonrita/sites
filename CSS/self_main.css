@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+main {
+    width: 100%;
+}
+
+h2 {
+    border-bottom: dashed 2px rgba(139, 69, 19, 1);
+    padding-bottom: 5px;
+}
+
+.main-inner {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 10px 0;
+}
+
+.explan {
+    margin: 20px 0;
+}
+
+table {
+    margin: 20px 0;
+}
+
+.hobby-box {
+    display: flex;
+    flex-flow: column;
+}
+
+.hobby-box input {
+    margin-bottom: 3px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#go {
+    background-color: rgba(255, 255, 254, 0.7);
+    border-color: rgba(137, 64, 5, 0.7);
+    border-radius: 30%;
+    padding: 10px 20px;
+}
