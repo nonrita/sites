@@ -43,6 +43,10 @@ td {
     width: 60%;
 }
 
+.ather {
+    font-size: 16px;
+}
+
 </style>
 
 <!DOCTYPE html>
@@ -113,7 +117,7 @@ td {
 
         <tr>
             <th>    その他</th>
-            <td>
+            <td class="ather">
                 {$_POST["ather"]}
             </td>
         </tr>
